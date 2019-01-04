@@ -1,21 +1,30 @@
-.body {
+body {
     margin:0px;
     padding:0px;
     background-color: black;
+    
 }
 
 #next{
     position: absolute;
     top: 40%;
     left:80%;
+    color:white;
+    cursor: pointer;
+}
+#next:hover {
     color:red;
 }
-
 #pre{
     position: absolute;
     top: 40%;
     right:80%;
+    color: white;
+    cursor: pointer;
    
+}
+#pre:hover{
+    color:red;
 }
 .slider{
     position: relative;
@@ -24,7 +33,8 @@
     margin: auto;
     margin-top: 10%;
     overflow: hidden;
-border: 10px solid black;    
+border: 10px solid white;   
+border-radius: 4px; 
     
 
 }
