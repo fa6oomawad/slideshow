@@ -7,7 +7,7 @@ body {
 
 #next{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left:80%;
     color:white;
     cursor: pointer;
@@ -17,7 +17,7 @@ body {
 }
 #pre{
     position: absolute;
-    top: 40%;
+    top: 50%;
     right:80%;
     color: white;
     cursor: pointer;
@@ -48,7 +48,32 @@ display:none;
 .active{
     display:block;
 }
+nav {
+    height: 70px;
+    background-color:blueviolet;
+    border-bottom:4px solid white;
+}
+ ul {
+     list-style: none;
+     color:white;
+     float:center;
+     
+     margin:0;
+     padding-top:10px;
+     height: 80px;
+     text-align:center;
 
+ }
+ul li  {
 
+    display:inline-block;
+    padding : 15px ;
+    
+}
+ul li a {
+    text-decoration:none;
+    padding-top: 15px;
+    color:white;
 
+}
 
