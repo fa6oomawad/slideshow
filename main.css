@@ -74,6 +74,12 @@ ul li a {
     text-decoration:none;
     padding-top: 15px;
     color:white;
-
+    font-family:'Trebuchet MS';
+    font-weight: bold;
+    font-size:20px;
+    
 }
 
+ul li :hover{
+    color:red;
+}
